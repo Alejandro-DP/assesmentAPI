@@ -93,9 +93,7 @@ namespace Assessment.Controllers
                 accounts = accounts
             };
 
-
-
-            return Ok(response);
+            return Ok(responses);
         }
     }
 }
