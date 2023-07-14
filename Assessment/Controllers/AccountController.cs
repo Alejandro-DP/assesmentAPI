@@ -88,12 +88,12 @@ namespace Assessment.Controllers
                 })
                 .ToList();
 
-            var responses = new
+            var response = new
             {
                 accounts = accounts
             };
 
-            return Ok(responses);
+            return Ok(response);
         }
     }
 }
