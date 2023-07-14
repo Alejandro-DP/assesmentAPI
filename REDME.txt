@@ -1,0 +1,8 @@
+
+
+   	Antes de ejecutar el proyecto hacer lo sig :
+ 	*en el archivo appsettings.json cambiar el valor de "defaultConnection" por los parametros de acuerdo a su servidor local
+	*en la pestaña de herramientas abrir "Adminitrador de paquetes Nugets" > "Consola de administrador de paquetes"
+	*ejectutar el comando "dotnet ef migrations add Nombre_de_migracion" asegurece de estar en la ruta del proyecto
+	*Ejecutar el comando "dotnet ef migrations database update" 
+	*revisar el MSSM sql server para ver la BD creada apartir de Entity Framework
